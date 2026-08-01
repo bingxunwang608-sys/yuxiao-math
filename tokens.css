@@ -258,6 +258,14 @@ h3 { font-family: var(--font-display); font-size: var(--text-xl); line-height: 1
 /* Features — with alternating accent numbers */
 .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-2xl); }
 .feature-item { padding: var(--space-lg) 0; border-top: 0.5px solid var(--color-divider); }
+.feature-link { display: block; text-decoration: none; color: inherit; cursor: pointer; transition: border-color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out); padding: var(--space-lg); margin: 0 calc(-1 * var(--space-lg)); border-radius: var(--radius-sm); }
+.feature-link:hover { background: var(--color-paper-2); }
+.feature-link .card-arrow { display: block; margin-top: var(--space-sm); font-family: var(--font-mono); font-size: var(--text-3xs); color: var(--color-blue); letter-spacing: 0.06em; opacity: 0; transform: translateX(-4px); transition: opacity var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out); }
+.feature-link:hover .card-arrow { opacity: 1; transform: translateX(0); }
+@media (max-width: 768px) {
+  .feature-link { padding: var(--space-md); margin: 0 calc(-1 * var(--space-md)); }
+  .feature-link .card-arrow { opacity: 0.7; transform: translateX(0); }
+}
 .feature-num { font-family: var(--font-mono); font-size: var(--text-3xs); font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; margin-bottom: var(--space-md); }
 .feature-item:nth-child(1) .feature-num { color: var(--color-blue); }
 .feature-item:nth-child(2) .feature-num { color: var(--color-teal); }
