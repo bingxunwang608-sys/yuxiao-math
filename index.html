@@ -1,0 +1,371 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" data-motion="on">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>喻晓数学 · 小学数学教辅</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;1,8..60,400&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tokens.css">
+</head>
+<body>
+
+<!-- NAV — N6 Masthead -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-brand">喻晓数学</a>
+    <ul class="nav-links">
+      <li><a href="#grades">年级体系</a></li>
+      <li><a href="#samples">样章</a></li>
+      <li><a href="#features">特色</a></li>
+      <li><a href="#outcomes">效果</a></li>
+      <li><a href="#cta" class="nav-cta">咨询购买</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <!-- Geometric illustration -->
+  <div class="hero-geo">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <!-- Large circle top-right -->
+      <circle cx="1200" cy="180" r="220" fill="none" stroke="oklch(48% 0.19 265 / 0.12)" stroke-width="1.5"/>
+      <circle cx="1200" cy="180" r="160" fill="none" stroke="oklch(48% 0.19 265 / 0.08)" stroke-width="1"/>
+      <!-- Coordinate axes bottom-left -->
+      <line x1="80" y1="780" x2="380" y2="780" stroke="oklch(48% 0.19 265 / 0.15)" stroke-width="1"/>
+      <line x1="100" y1="820" x2="100" y2="620" stroke="oklch(48% 0.19 265 / 0.15)" stroke-width="1"/>
+      <polyline points="100,680 95,700 105,700" fill="none" stroke="oklch(48% 0.19 265 / 0.12)" stroke-width="1"/>
+      <polyline points="320,780 300,775 300,785" fill="none" stroke="oklch(48% 0.19 265 / 0.12)" stroke-width="1"/>
+      <!-- Triangle group top-left -->
+      <polygon points="200,280 260,200 320,280" fill="none" stroke="oklch(50% 0.17 190 / 0.14)" stroke-width="1.5"/>
+      <polygon points="220,280 260,220 300,280" fill="oklch(50% 0.17 190 / 0.08)" stroke="none"/>
+      <!-- Scattered dots -->
+      <circle cx="350" cy="400" r="3" fill="oklch(60% 0.19 75 / 0.25)"/>
+      <circle cx="1100" cy="650" r="4" fill="oklch(50% 0.19 10 / 0.20)"/>
+      <circle cx="850" cy="150" r="2.5" fill="oklch(48% 0.19 265 / 0.30)"/>
+      <circle cx="500" cy="700" r="3" fill="oklch(50% 0.17 190 / 0.22)"/>
+      <circle cx="1050" cy="350" r="2" fill="oklch(60% 0.19 75 / 0.28)"/>
+      <circle cx="180" cy="550" r="3.5" fill="oklch(50% 0.19 10 / 0.16)"/>
+      <!-- Parabola-like curve -->
+      <path d="M 600 750 Q 700 650 800 750" fill="none" stroke="oklch(48% 0.19 265 / 0.10)" stroke-width="1.5"/>
+      <!-- Small grid -->
+      <rect x="950" y="580" width="160" height="120" fill="none" stroke="oklch(48% 0.19 265 / 0.10)" stroke-width="0.5"/>
+      <line x1="990" y1="580" x2="990" y2="700" stroke="oklch(48% 0.19 265 / 0.07)" stroke-width="0.5"/>
+      <line x1="1030" y1="580" x2="1030" y2="700" stroke="oklch(48% 0.19 265 / 0.07)" stroke-width="0.5"/>
+      <line x1="1070" y1="580" x2="1070" y2="700" stroke="oklch(48% 0.19 265 / 0.07)" stroke-width="0.5"/>
+      <line x1="950" y1="620" x2="1110" y2="620" stroke="oklch(48% 0.19 265 / 0.07)" stroke-width="0.5"/>
+      <line x1="950" y1="660" x2="1110" y2="660" stroke="oklch(48% 0.19 265 / 0.07)" stroke-width="0.5"/>
+    </svg>
+  </div>
+
+  <div class="hero-inner">
+    <h1 class="display animate-in">
+      孩子不必和别人<br>有<em>同一个节奏</em>
+    </h1>
+    <p class="hero-sub animate-in delay-1">
+      <strong>喻晓数学</strong> — 小学1至6年级全学段，<strong>47个模块</strong>。
+      学生练习册与详解解析册，专业OMML数学排版。
+    </p>
+    <div class="hero-actions animate-in delay-2">
+      <a href="#samples" class="btn-primary">查看样章</a>
+      <a href="#grades" class="btn-ghost">浏览年级体系</a>
+    </div>
+  </div>
+</header>
+
+<!-- GRADE OVERVIEW -->
+<section id="grades" class="section-tight">
+  <div class="wide">
+    <div class="section-head">
+      <div class="section-label">年级体系</div>
+      <h2>六个年级，一条完整的数学思维阶梯</h2>
+      <p>每册模块独立成书，年级间知识递进、前后呼应。</p>
+    </div>
+    <div class="grades-grid">
+      <div class="grade-card">
+        <div class="grade-num">1</div>
+        <div class="grade-name">一年级 · 5 模块</div>
+        <ul class="grade-list">
+          <li>20以内加减法</li>
+          <li>数的认识（20以内）</li>
+          <li>认识图形（基本形状）</li>
+          <li>位置（上下左右前后）</li>
+          <li>分类与整理</li>
+        </ul>
+      </div>
+      <div class="grade-card">
+        <div class="grade-num">二年级</div>
+        <div class="grade-name">二年级 · 5 模块</div>
+        <ul class="grade-list">
+          <li>表内乘法</li>
+          <li>表内除法</li>
+          <li>万以内数的认识</li>
+          <li>角的初步认识 + 认识图形二</li>
+          <li>长度单位</li>
+        </ul>
+      </div>
+      <div class="grade-card">
+        <div class="grade-num">三年级</div>
+        <div class="grade-name">三年级 · 7 模块</div>
+        <ul class="grade-list">
+          <li>分数初步</li>
+          <li>小数初步</li>
+          <li>多位数乘除法</li>
+          <li>面积（一）+ 长方形和正方形</li>
+          <li>测量与周长</li>
+          <li>统计表</li>
+          <li>归一归总应用题+集合+排列组合</li>
+        </ul>
+      </div>
+      <div class="grade-card">
+        <div class="grade-num">四年级</div>
+        <div class="grade-name">四年级 · 10 模块</div>
+        <ul class="grade-list">
+          <li>大数的认识</li>
+          <li>运算律</li>
+          <li>小数的意义和性质</li>
+          <li>小数加减法</li>
+          <li>角的度量</li>
+          <li>平行四边形和梯形</li>
+          <li>观察物体 + 图形运动一</li>
+          <li>条形统计图</li>
+          <li>平均数</li>
+          <li>数学广角（优化+行程+规律）</li>
+        </ul>
+      </div>
+      <div class="grade-card">
+        <div class="grade-num">五年级</div>
+        <div class="grade-name">五年级 · 10 模块</div>
+        <ul class="grade-list">
+          <li>分数的意义和性质</li>
+          <li>分数加减法</li>
+          <li>小数乘除法</li>
+          <li>因数与倍数</li>
+          <li>字母表示数与正反比例启蒙</li>
+          <li>多边形面积</li>
+          <li>长方体和正方体+观察物体深化</li>
+          <li>折线统计图</li>
+          <li>可能性</li>
+          <li>数学广角（找次品+工程+行程二）</li>
+        </ul>
+      </div>
+      <div class="grade-card">
+        <div class="grade-num">六年级</div>
+        <div class="grade-name">六年级 · 9 模块</div>
+        <ul class="grade-list">
+          <li>分数乘除法</li>
+          <li>比和比例</li>
+          <li>百分数</li>
+          <li>负数</li>
+          <li>简易方程与比例深化</li>
+          <li>圆</li>
+          <li>圆柱与圆锥+图形运动二</li>
+          <li>扇形统计图+综合统计实践</li>
+          <li>数学广角（鸽巢原理+百分数+浓度）</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-rule"><div class="section-rule-inner"></div></div>
+
+<!-- STATS -->
+<div class="stats-strip">
+<section class="section-tight" style="padding-top:0;padding-bottom:0">
+  <div class="narrow">
+    <div class="stats-row">
+      <div>
+        <div class="stat-num">47</div>
+        <div class="stat-label">模块总数</div>
+      </div>
+      <div>
+        <div class="stat-num">1–6年级</div>
+        <div class="stat-label">全年级覆盖</div>
+      </div>
+      <div>
+        <div class="stat-num">94</div>
+        <div class="stat-label">学生+解析版</div>
+      </div>
+      <div>
+        <div class="stat-num">4,500+</div>
+        <div class="stat-label">精选习题</div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="section-rule"><div class="section-rule-inner"></div></div>
+
+<!-- SAMPLES -->
+<section id="samples" class="section-tight">
+  <div class="wide">
+    <div class="section-head">
+      <div class="section-label">样章预览</div>
+      <h2>点击任意样章，<br>查看完整内容预览</h2>
+      <p>每个年级选取最难模块展示，含概念讲解 · 例题详解 · 本章小结。点击卡片即可进入。</p>
+    </div>
+    <div class="samples-grid">
+      <a href="sample-p1.html" class="sample-card">
+        <div class="sample-badge">一年级 · 样章</div>
+        <h3>20以内加减法</h3>
+        <p>凑十法、破十法——第一次接触进位退位</p>
+        <span class="card-arrow">点击查看 →</span>
+      </a>
+      <a href="sample-p2.html" class="sample-card">
+        <div class="sample-badge">二年级 · 样章</div>
+        <h3>表内除法</h3>
+        <p>从乘法到除法的逆向思维跨越</p>
+        <span class="card-arrow">点击查看 →</span>
+      </a>
+      <a href="sample-p3.html" class="sample-card">
+        <div class="sample-badge">三年级 · 样章</div>
+        <h3>分数初步</h3>
+        <p>从整数到有理数——第一次数的扩充</p>
+        <span class="card-arrow">点击查看 →</span>
+      </a>
+      <a href="sample-p4.html" class="sample-card">
+        <div class="sample-badge">四年级 · 样章</div>
+        <h3>运算律</h3>
+        <p>从"会算"到"会巧算"——五大定律</p>
+        <span class="card-arrow">点击查看 →</span>
+      </a>
+      <a href="sample-p5.html" class="sample-card">
+        <div class="sample-badge">五年级 · 样章</div>
+        <h3>多边形面积</h3>
+        <p>割补法、倍拼法——转化思想统领全局</p>
+        <span class="card-arrow">点击查看 →</span>
+      </a>
+      <a href="sample-p6.html" class="sample-card">
+        <div class="sample-badge">六年级 · 样章</div>
+        <h3>分数乘除法</h3>
+        <p>小学计算顶峰——倒数转化一气呵成</p>
+        <span class="card-arrow">点击查看 →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<div class="section-rule"><div class="section-rule-inner"></div></div>
+
+<div class="ornament"><div class="ornament-dot"></div></div>
+
+<!-- FEATURES -->
+<section id="features" class="section-tight">
+  <div class="wide">
+    <div class="section-head">
+      <div class="section-label">产品特色</div>
+      <h2>和市面上教辅，<br>不一样在哪里</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-item">
+        <div class="feature-num">01</div>
+        <h3>学生版 + 解析版，两册分离</h3>
+        <p>市面教辅多是"讲练一体"——题下紧接答案，孩子余光一扫就看到了。我们将学生练习册与详解解析册分拆为两本，学生独立做题，家长持解析册辅导，互不干扰。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">02</div>
+        <h3>OMML 数学排版，不是图片</h3>
+        <p>多数教辅用图片贴公式——放大模糊、排版参差。我们所有分数、根号、方程均以 OMML 原生渲染，在 Word 中可编辑、可缩放，任何时候都是清晰的。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">03</div>
+        <h3>L1→L5 五层难度，不是堆难题</h3>
+        <p>L1 基础识记 → L2 规则应用 → L3 多知识点结合 → L4 迁移创新 → L5 探究拓展。每模块 85+ 题由浅入深递进，不是简单把奥数题塞进去就叫"拔高"。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">04</div>
+        <h3>每道题都有"为什么错"</h3>
+        <p>解析册不只给答案，每道题配备错因分析、诊断价值和针对性反馈。知道孩子卡在哪、为什么卡、下一步该补什么——而不是让孩子自己对照答案订正。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">05</div>
+        <h3>47 模块完整体系，不是零散分册</h3>
+        <p>覆盖 一年级-六年级 全学段核心领域：数与运算、几何图形、统计概率、代数启蒙、数学广角。年级间知识递进、前后呼应，不是每学期换一家出版社的拼盘。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">06</div>
+        <h3>统一风格，六年不变的阅读体验</h3>
+        <p>同一套排版规范、难度标注体系、字体和行距标准。孩子从 一年级 用到 六年级，翻开每册都是熟悉的结构，不需要重新适应。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-rule"><div class="section-rule-inner"></div></div>
+
+<!-- OUTCOMES -->
+<section id="outcomes" class="section-tight">
+  <div class="wide">
+    <div class="section-head">
+      <div class="section-label">学习效果</div>
+      <h2>通篇学完这套教辅，<br>孩子能达到什么程度</h2>
+    </div>
+    <div class="features-grid">
+      <div class="feature-item">
+        <div class="feature-num">01</div>
+        <h3>完整的数学知识体系</h3>
+        <p>一年级 到 六年级 逐级覆盖数与运算、几何图形、统计概率、代数启蒙、数学广角五大领域。学完 47 模块即完成小学数学全知识图谱的系统建构，无知识盲区。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">02</div>
+        <h3>从"会做题"到"会想题"</h3>
+        <p>L1-L2 打牢计算基础和规则应用，L3 训练多知识点综合运用，L4-L5 培养在新情境中自主建模和策略设计的能力。不再是刷题型，而是长思维。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">03</div>
+        <h3>自主学习，不依赖讲解</h3>
+        <p>学生版独立成册让孩子先独立思考，解析版的错因分析和诊断反馈让家长能精准辅导。长期下来，孩子养成"先自己想→再对照反思"的学习习惯。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">04</div>
+        <h3>精准定位薄弱环节</h3>
+        <p>每道题的诊断价值标注让家长一眼看出孩子是"计算粗心"还是"概念没懂"还是"方法选错"。47 模块学下来，薄弱点无处可藏。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">05</div>
+        <h3>初高中衔接不掉队</h3>
+        <p>L4-L5 的迁移创新和探究拓展难度对齐初中入学分班考要求，六年级 的负数、比例、方程模块直接衔接初一内容。不是"小学学完就完了"，而是为后续学习铺路。</p>
+      </div>
+      <div class="feature-item">
+        <div class="feature-num">06</div>
+        <h3>六年一贯，持续进阶</h3>
+        <p>同一套难度体系和排版规范贯穿六年，孩子不需要每学期重新适应不同教辅。家长也只需要掌握一套辅导方法：学生版做题→解析版对照→针对性补弱。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta" class="section-tight">
+  <div class="narrow">
+    <div class="cta-section">
+      <div class="section-label">咨询购买</div>
+      <div class="display-s" style="text-align:center;margin-bottom:var(--space-md)">觉得合适？<br>加微信聊聊</div>
+      <p>扫码或搜索微信号添加好友，可了解价格、索取完整样章、或直接购买。一对一沟通，孩子什么年级就拿什么年级的样章。</p>
+
+      <!-- 微信二维码 -->
+      <div style="margin: var(--space-xl) auto; width: 200px; height: 200px; border-radius: var(--radius-sm); overflow: hidden;">
+        <img src="qrcode.jpg" alt="微信二维码" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      </div>
+
+      <!-- 微信号 -->
+      <div style="margin-bottom: var(--space-lg);">
+        <div style="font-family: var(--font-mono); font-size: var(--text-3xs); text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-ink-3); margin-bottom: var(--space-xs);">微信号</div>
+        <div style="font-family: var(--font-mono); font-size: var(--text-md); color: var(--color-accent); letter-spacing: 0.04em;">ll070223wb</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER — Ft1 Minimal -->
+<footer class="footer">
+  <div class="footer-brand">喻晓数学</div>
+  <p>© 2026 喻晓数学。让每个孩子拥有自己的数学节奏。</p>
+</footer>
+
+</body>
+</html>
