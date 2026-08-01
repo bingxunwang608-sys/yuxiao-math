@@ -62,5 +62,8 @@
   .preview-note { padding: var(--space-lg); }
   .steps li { font-size: var(--text-xs); padding-left: var(--space-xl); }
   .steps li::before { width: 18px; height: 18px; font-size: 0.6rem; }
-  .dual-compare { grid-template-columns: 1fr !important; }
+  .dual-compare { grid-template-columns: 1fr !important; gap: var(--space-md) !important; }
+  .dual-compare > div { padding: var(--space-md) !important; }
+  .dual-compare p, .dual-compare li, .dual-compare ol { font-size: var(--text-xs) !important; }
+  .dual-compare ol, .dual-compare ul { padding-left: var(--space-md) !important; }
 }
