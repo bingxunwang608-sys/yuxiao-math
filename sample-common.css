@@ -62,4 +62,5 @@
   .preview-note { padding: var(--space-lg); }
   .steps li { font-size: var(--text-xs); padding-left: var(--space-xl); }
   .steps li::before { width: 18px; height: 18px; font-size: 0.6rem; }
+  .dual-compare { grid-template-columns: 1fr !important; }
 }
