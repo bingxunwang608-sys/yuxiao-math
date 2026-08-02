@@ -1,21 +1,25 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>多边形面积 · 样章 — 喻晓数学</title>
-<meta name="description" content="五年级最难模块样章：割补法、倍拼法——转化思想统领全局。含平行四边形、三角形、梯形面积，L1-L5五层例题详解。">
+<meta name="description" content="五年级最难模块样章：割补法、倍拼法——转化思想统领全局。DOCX实际截图，所见即所得。">
 <meta property="og:title" content="多边形面积 · 样章 — 喻晓数学">
-<meta property="og:description" content="割补法、倍拼法——转化思想统领全局。三种图形面积+L1-L5例题详解。">
+<meta property="og:description" content="割补法、倍拼法——转化思想统领全局。DOCX实际截图，所见即所得。">
 <meta property="og:image" content="https://yuxiao-math.cn/og-image.jpg">
 <meta property="og:url" content="https://yuxiao-math.cn/sample-p5">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="喻晓数学">
 <link rel="stylesheet" href="tokens.css">
 <link rel="stylesheet" href="sample-common.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
-<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+<style>
+  .docx-gallery { margin-bottom: var(--space-3xl); }
+  .docx-gallery figure { margin: 0 0 var(--space-2xl); text-align: center; }
+  .docx-gallery img { width: 100%; height: auto; display: block; border: 0.5px solid var(--color-divider); border-radius: var(--radius-sm); box-shadow: 0 2px 12px oklch(0% 0 0 / 0.06); }
+  .docx-gallery figcaption { font-family: var(--font-mono); font-size: var(--text-3xs); text-transform: uppercase; letter-spacing: 0.1em; color: var(--color-ink-3); margin-top: var(--space-sm); }
+  .intro-text { font-size: var(--text-base); color: var(--color-ink-2); line-height: 1.85; margin-bottom: var(--space-2xl); }
+</style>
 </head>
 <body>
 <nav class="sample-nav"><a href="index.html" class="back">← 返回首页</a><span class="title">样章预览</span></nav>
@@ -27,46 +31,30 @@
   <div class="meta"><span>10课时</span><span>5层难度</span><span>85题</span></div>
 </header>
 
-<section class="objectives">
-  <h3>学习目标</h3>
-  <ul>
-    <li>掌握平行四边形面积 = 底 × 高的推导和计算</li>
-    <li>掌握三角形面积 = 底 × 高 ÷ 2 的推导和计算</li>
-    <li>掌握梯形面积 = (上底+下底) × 高 ÷ 2 的推导和计算</li>
-    <li>理解三种图形面积公式之间的内在联系</li>
-  </ul>
-</section>
-
-<section class="concept"><h2>一、核心思想——转化法</h2>
-<div class="block"><div class="block-label">为什么多边形面积是P5最难</div><p>不靠死记公式，而是用<strong>割补法和倍拼法</strong>把陌生图形转化为已知图形。平行四边形→长方形，三角形→平行四边形的一半，梯形→平行四边形的一半——<strong>三个公式一条线，核心是转化思想</strong>。</p></div>
-<div class="block"><div class="block-label">三种图形的转化链</div><table style="width:100%;font-size:var(--text-sm);color:var(--color-ink-2);border-collapse:collapse;">
-<tr style="border-bottom:0.5px solid var(--color-divider)"><td>平行四边形</td><td>\(S=ah\)</td><td>割补为长方形</td></tr>
-<tr style="border-bottom:0.5px solid var(--color-divider)"><td>三角形</td><td>\(S=ah \div 2\)</td><td>倍拼为平行四边形</td></tr>
-<tr><td>梯形</td><td>\(S=(a+b)h \div 2\)</td><td>倍拼为平行四边形</td></tr>
-</table></div>
-</section>
-
-<section class="concept"><h2>二、容易踩的坑</h2>
-<div class="highlight bad"><div class="block-label" style="color:oklch(58% 0.21 25)">❌ 坑一：高看斜了</div><p>平行四边形的<strong>高是垂直距离</strong>，不是斜边。底8cm斜边5cm高4cm → 面积是 \(8 \times 4 = 32\text{cm}^2\)，不是 \(8 \times 5 = 40\text{cm}^2\)。</p></div>
-<div class="highlight bad"><div class="block-label" style="color:oklch(58% 0.21 25)">❌ 坑二：忘了÷2</div><p>三角形面积 = \(底 \times 高 \div 2\)。背100遍公式不如记住<strong>两个三角形才拼成一个平行四边形</strong>——忘记÷2等于把三角形当平行四边形算。</p></div>
-</section>
-
-<div class="divider">● 例题详解 ●</div>
-
-<div class="example"><span class="level-tag l1">L1 · 基础识记</span><div class="q">平行四边形底6cm高4cm，面积是多少？</div><div class="solution"><ol class="steps"><li>确认公式：\(S = 底 \times 高\)</li><li>代入数值：\(S = 6 \times 4\)</li><li>计算：\(S = 24\)</li><li>注意：高是垂直距离，不是斜边</li><li>答案：<strong>\(24\text{cm}^2\)</strong></li></ol></div></div>
-<div class="example"><span class="level-tag l1">L1 · 基础识记</span><div class="q">三角形底10cm高6cm，面积是多少？</div><div class="solution"><ol class="steps"><li>确认公式：\(S = 底 \times 高 \div 2\)</li><li>代入数值：\(S = 10 \times 6 \div 2\)</li><li>计算：\(10 \times 6 = 60\)，\(60 \div 2 = 30\)</li><li>别忘了÷2！三角形是平行四边形的一半</li><li>答案：<strong>\(30\text{cm}^2\)</strong></li></ol></div></div>
-<div class="example"><span class="level-tag l3">L3 · 多知识点结合</span><div class="q">梯形上底3cm下底7cm高4cm，面积是多少？若从中剪去一个最大的三角形，剩余面积是多少？</div><div class="solution"><ol class="steps"><li>梯形面积：\((3+7) \times 4 \div 2 = 10 \times 4 \div 2 = 20\text{cm}^2\)</li><li>最大三角形：以下底7为底，高4为高</li><li>三角形面积：\(7 \times 4 \div 2 = 14\text{cm}^2\)</li><li>剩余面积：\(20 - 14 = 6\text{cm}^2\)</li><li>答案：<strong>梯形\(20\text{cm}^2\)，剩余\(6\text{cm}^2\)</strong></li></ol></div></div>
-<div class="example"><span class="level-tag l5">L5 · 探究拓展</span><div class="q">一个三角形和平行四边形等底等高。平行四边形面积是48cm²，三角形面积是多少？如果高变为原来的2倍，两者面积各变为多少？</div><div class="solution"><ol class="steps"><li>等底等高：三角形面积 = 平行四边形面积 ÷ 2</li><li>\(48 \div 2 = 24\text{cm}^2\)</li><li>高变为2倍：平行四边形 \(48 \times 2 = 96\text{cm}^2\)</li><li>三角形：\(24 \times 2 = 48\text{cm}^2\)（也翻倍）</li><li>关键发现：面积比始终保持 <strong>三角形 : 平行四边形 = 1 : 2</strong></li><li>答案：<strong>三角形\(24\text{cm}^2\)；2倍高后：平行四边形\(96\text{cm}^2\)，三角形\(48\text{cm}^2\)</strong></li></ol></div></div>
-
-<div class="summary"><h2>本章小结</h2><ul>
-<li><strong>转化思想：</strong>平行四边形→长方形（割补），三角形/梯形→平行四边形（倍拼）</li>
-<li><strong>高必须是垂直距离</strong>——用三角尺验证，不是斜边长度</li>
-<li><strong>三角形和梯形面积都要÷2</strong>——倍拼后的平行四边形是两个图形拼成的</li>
-<li>三个公式可以统一：<strong>梯形面积公式是"万能公式"</strong>（上底=0→三角形，上底=下底→平行四边形）</li>
-</ul></div>
-
-<div class="preview-note"><h3>以上为样章预览</h3><p>完整模块含 5 个概念章节（含组合图形）+ L1~L5 共 85 道题。<br>搭配《解析版》逐题含割补法图解、多解法对比和易错点拆解。</p><p style="margin-top:var(--space-md)"><a href="index.html#cta">→ 加助教小王老师微信，获取完整版</a></p></div>
+<div class="intro-text">
+  以下是<strong>《多边形面积·学生版》DOCX 实际截图</strong>。割补法与倍拼法统领全局——三种图形面积公式统一于"转化为已知图形"的思想。所见即所得——您收到的文件排版、公式、题目与此完全一致。
 </div>
-<script>renderMathInElement(document.body, {delimiters: [{left: "\\(", right: "\\)", display: false}]});</script>
+
+<div class="docx-gallery">
+  <figure>
+    <img src="images/p5-obj.png" alt="学习目标与平行四边形面积" loading="lazy">
+    <figcaption>↑ 学习目标与平行四边形面积推导——割补法转化为长方形</figcaption>
+  </figure>
+  <figure>
+    <img src="images/p5-sanjiao.png" alt="三角形面积推导" loading="lazy">
+    <figcaption>↑ 三角形面积——底×高÷2，两个全等三角形拼成平行四边形</figcaption>
+  </figure>
+  <figure>
+    <img src="images/p5-tixing.png" alt="梯形面积推导" loading="lazy">
+    <figcaption>↑ 梯形面积——(上底+下底)×高÷2，两个全等梯形拼成平行四边形</figcaption>
+  </figure>
+  <figure>
+    <img src="images/p5-l5.png" alt="L5探究拓展挑战题" loading="lazy">
+    <figcaption>↑ L5 探究拓展——几何变换、最优解与井盖为什么是圆的</figcaption>
+  </figure>
+</div>
+
+<div class="preview-note"><h3>以上为样章预览</h3><p>完整模块含 5 个概念章节 + L1~L5 共 85 道题。<br>搭配《解析版》每道题都含错因分析和思维引导。</p><p style="margin-top:var(--space-md)"><a href="index.html#cta">→ 加助教小王老师微信，获取完整版</a></p></div>
+</div>
 </body>
 </html>
